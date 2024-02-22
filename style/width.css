@@ -1,37 +1,40 @@
+/* Very Simple Stylesheet for site to be Responsive to Screen Width */
+
 /* PHONE */
 @media (min-width: 0px) {
-    .screen-sm {
-      display: block !important;
-    }
-    .screen-lg {
-      display: none !important;
-    }
-    .container {
-      width: 90% !important;
-    }
+  .screen-sm {
+    display: block !important;
   }
-  /* TABLET */
-  @media (min-width: 768px) {
-    .screen-sm {
-      display: none !important;
-    }
-    .screen-lg {
-      display: block !important;
-    }
-    .container {
-      width: 60% !important;
-    }
+  .screen-lg {
+    display: none !important;
   }
-  /* Desktop */
-  @media (min-width: 1200px) {
-    .screen-sm {
-      display: none !important;
-    }
-    .screen-lg {
-      display: block !important;
-    }
-    .container {
-      width: 40% !important;
-    }
+  .container {
+    width: 90% !important;
   }
-  
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .screen-sm {
+    display: none !important;
+  }
+  .screen-lg {
+    display: block !important;
+  }
+  .container {
+    width: 60% !important;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  .screen-sm {
+    display: none !important;
+  }
+  .screen-lg {
+    display: block !important;
+  }
+  .container {
+    width: 40% !important;
+  }
+}
