@@ -31495,7 +31495,7 @@ a.tabnav-extra:hover {
 }
 .color-fg-accent,
 .fgColor-accent {
-  color: var(--fgColor-accent, var(--color-accent-fg)) !important;
+  color: #e76f51 !important;
 }
 .color-fg-success,
 .fgColor-success {
